@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+
+      - name: Enable corepack (pnpm)
+        run: corepack enable
+
+      # If your package.json has "packageManager": "pnpm@x.y.z",
+      # the next step will use that exact pnpm version.
+      - name: Install deps (pnpm)
+        run: pnpm install --frozen-lockfile
+
+      # Speed up Nx & avoid daemon in CI
+      - name: Build API
+        run: pnpm nx build api
+        env:
+          NX_DAEMON: 'false'
+
+      # If you also want to build the dashboard when it’s ready:
+      # - name: Build dashboard
+      #   run: pnpm nx build dashboard
+      #   env:
+      #     NX_DAEMON: 'false'

@@ -1,0 +1,16 @@
+import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToMany } from 'typeorm';
+
+@Entity()
+export class Org {
+  @PrimaryGeneratedColumn() id: number;
+  @Column() name: string;
+
+  @ManyToOne(() => Org, (o) => o.children, { nullable: true })
+  parent?: Org;
+
+  @OneToMany(() => Org, (o) => o.parent)
+  children: Org[];
+
+  @OneToMany(() => User, (u) => u.org)
+  users: User[];
+}

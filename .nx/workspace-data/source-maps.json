@@ -1,0 +1,762 @@
+{
+  "api": {
+    "root": [
+      "api/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "api/webpack.config.cjs",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview": [
+      "api/webpack.config.cjs",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.continuous": [
+      "api/webpack.config.cjs",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options": [
+      "api/webpack.config.cjs",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata": [
+      "api/webpack.config.cjs",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.executor": [
+      "api/webpack.config.cjs",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.cwd": [
+      "api/webpack.config.cjs",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.args": [
+      "api/webpack.config.cjs",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.command": [
+      "api/webpack.config.cjs",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.technologies": [
+      "api/webpack.config.cjs",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.technologies.0": [
+      "api/webpack.config.cjs",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.description": [
+      "api/webpack.config.cjs",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help": [
+      "api/webpack.config.cjs",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help.command": [
+      "api/webpack.config.cjs",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help.example": [
+      "api/webpack.config.cjs",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps": [
+      "api/webpack.config.cjs",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.continuous": [
+      "api/webpack.config.cjs",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "api/webpack.config.cjs",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "api/webpack.config.cjs",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "api/webpack.config.cjs",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "api/webpack.config.cjs",
+      "@nx/webpack/plugin"
+    ],
+    "targets.lint": [
+      "api/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "api/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "api/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "api/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "api/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "api/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "api/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "api/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "api/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "api/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "api/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "api/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "api/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "api/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "api/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "api/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "api/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "api/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "dashboard": {
+    "root": [
+      "dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "dashboard/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview": [
+      "dashboard/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.continuous": [
+      "dashboard/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options": [
+      "dashboard/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata": [
+      "dashboard/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.executor": [
+      "dashboard/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.cwd": [
+      "dashboard/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.args": [
+      "dashboard/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.command": [
+      "dashboard/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.technologies": [
+      "dashboard/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.technologies.0": [
+      "dashboard/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.description": [
+      "dashboard/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help": [
+      "dashboard/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help.command": [
+      "dashboard/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help.example": [
+      "dashboard/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps": [
+      "dashboard/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.continuous": [
+      "dashboard/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "dashboard/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "dashboard/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "dashboard/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "dashboard/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.lint": [
+      "dashboard/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "dashboard/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "dashboard/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "dashboard/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "dashboard/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "dashboard/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "dashboard/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "dashboard/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "dashboard/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "dashboard/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "dashboard/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "dashboard/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "dashboard/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "dashboard/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "dashboard/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.webpackConfig": [
+      "dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "api-e2e": {
+    "root": [
+      "api-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "api-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "api-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "api-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "api-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "api-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "api-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "api-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "api-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "api-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "api-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "api-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "api-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "api-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "api-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "api-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "api-e2e/.eslintrc.json",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "api-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "api-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "api-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "api-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.api": [
+      "api-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e": [
+      "api-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.executor": [
+      "api-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.outputs": [
+      "api-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options": [
+      "api-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.dependsOn": [
+      "api-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options.jestConfig": [
+      "api-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options.passWithNoTests": [
+      "api-e2e/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "dashboard-e2e": {
+    "root": [
+      "dashboard-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "dashboard-e2e/eslint.config.cjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "dashboard-e2e/eslint.config.cjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "dashboard-e2e/eslint.config.cjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "dashboard-e2e/eslint.config.cjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "dashboard-e2e/eslint.config.cjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "dashboard-e2e/eslint.config.cjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "dashboard-e2e/eslint.config.cjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "dashboard-e2e/eslint.config.cjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "dashboard-e2e/eslint.config.cjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.env": [
+      "dashboard-e2e/eslint.config.cjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "dashboard-e2e/eslint.config.cjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "dashboard-e2e/eslint.config.cjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "dashboard-e2e/eslint.config.cjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "dashboard-e2e/eslint.config.cjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "dashboard-e2e/eslint.config.cjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "dashboard-e2e/eslint.config.cjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "dashboard-e2e/eslint.config.cjs",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "dashboard-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "dashboard-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "dashboard-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "dashboard-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "dashboard-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "dashboard-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "dashboard-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.dashboard": [
+      "dashboard-e2e/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "auth": {
+    "root": [
+      "auth/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "auth/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "auth/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "auth/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "auth/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "auth/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "auth/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "data": {
+    "root": [
+      "data/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "data/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "data/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "data/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "data/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "data/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "data/project.json",
+      "nx/core/project-json"
+    ]
+  }
+}

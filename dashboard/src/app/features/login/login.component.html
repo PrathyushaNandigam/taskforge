@@ -1,0 +1,15 @@
+<div class="min-h-screen grid place-items-center bg-slate-50">
+  <div class="w-full max-w-sm rounded-2xl bg-white shadow p-6">
+    <h1 class="text-xl font-semibold">Sign in</h1>
+    <form class="mt-4 space-y-3" (ngSubmit)="submit()">
+      <input [(ngModel)]="email" name="email" type="email" required
+             class="w-full rounded-lg border px-3 py-2" placeholder="Email" />
+      <input [(ngModel)]="password" name="password" type="password" required
+             class="w-full rounded-lg border px-3 py-2" placeholder="Password" />
+      <button class="w-full rounded-lg bg-black text-white py-2 disabled:opacity-50" [disabled]="loading">
+        {{ loading ? 'Signing in…' : 'Sign in' }}
+      </button>
+      <p *ngIf="error" class="text-red-600 text-sm">{{ error }}</p>
+    </form>
+  </div>
+</div>

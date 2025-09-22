@@ -1,0 +1,97 @@
+<div class="min-h-screen bg-slate-50">
+  <header class="border-b bg-white">
+    <div class="container flex items-center gap-4 py-3">
+      <h1 class="text-lg font-semibold">Tasks</h1>
+      <input [(ngModel)]="q" placeholder="Filter…" class="ml-auto w-72 rounded-lg border px-3 py-1.5" />
+    </div>
+  </header>
+
+  <main class="container py-6 space-y-6">
+    <!-- Create form -->
+    <form class="flex gap-2" (ngSubmit)="add()">
+      <input
+        [(ngModel)]="title"
+        name="title"
+        placeholder="Task title"
+        class="flex-1 rounded-lg border px-3 py-2"
+        required
+      />
+      <input
+        [(ngModel)]="category"
+        name="category"
+        placeholder="Category"
+        class="w-48 rounded-lg border px-3 py-2"
+      />
+      <button class="rounded-lg bg-black text-white px-4 py-2">Add</button>
+    </form>
+
+    <!-- Board -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <!-- To do -->
+      <section>
+        <h2 class="text-sm font-medium text-slate-600 mb-2">To do</h2>
+        <div
+          cdkDropList
+          [cdkDropListData]="byStatus('todo')"
+          (cdkDropListDropped)="drop($event, 'todo')"
+          class="min-h-[300px] rounded-xl bg-white p-3 shadow-sm space-y-2"
+        >
+          <article
+            *ngFor="let t of byStatus('todo')"
+            cdkDrag
+            [cdkDragData]="t"
+            class="rounded-lg border bg-white p-3 shadow-sm"
+          >
+            <div class="font-medium">{{ t.title }}</div>
+            <div class="text-xs text-slate-500" *ngIf="t.category">{{ t.category }}</div>
+            <button class="text-xs text-red-600 mt-2" (click)="del(t.id)">Delete</button>
+          </article>
+        </div>
+      </section>
+
+      <!-- Doing -->
+      <section>
+        <h2 class="text-sm font-medium text-slate-600 mb-2">Doing</h2>
+        <div
+          cdkDropList
+          [cdkDropListData]="byStatus('doing')"
+          (cdkDropListDropped)="drop($event, 'doing')"
+          class="min-h-[300px] rounded-xl bg-white p-3 shadow-sm space-y-2"
+        >
+          <article
+            *ngFor="let t of byStatus('doing')"
+            cdkDrag
+            [cdkDragData]="t"
+            class="rounded-lg border bg-white p-3 shadow-sm"
+          >
+            <div class="font-medium">{{ t.title }}</div>
+            <div class="text-xs text-slate-500" *ngIf="t.category">{{ t.category }}</div>
+            <button class="text-xs text-red-600 mt-2" (click)="del(t.id)">Delete</button>
+          </article>
+        </div>
+      </section>
+
+      <!-- Done -->
+      <section>
+        <h2 class="text-sm font-medium text-slate-600 mb-2">Done</h2>
+        <div
+          cdkDropList
+          [cdkDropListData]="byStatus('done')"
+          (cdkDropListDropped)="drop($event, 'done')"
+          class="min-h-[300px] rounded-xl bg-white p-3 shadow-sm space-y-2"
+        >
+          <article
+            *ngFor="let t of byStatus('done')"
+            cdkDrag
+            [cdkDragData]="t"
+            class="rounded-lg border bg-white p-3 shadow-sm"
+          >
+            <div class="font-medium">{{ t.title }}</div>
+            <div class="text-xs text-slate-500" *ngIf="t.category">{{ t.category }}</div>
+            <button class="text-xs text-red-600 mt-2" (click)="del(t.id)">Delete</button>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
+</div>

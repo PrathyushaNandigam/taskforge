@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "ignorePatterns": ["**/*"],
+  "plugins": ["@nx"],
+  "overrides": [
+ {
+      "files": ["webpack.config.js"],
+      "env": { "node": true },
+      "parserOptions": { "ecmaVersion": 2020 }
+    }
+  ]
+}

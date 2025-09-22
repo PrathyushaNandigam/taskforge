@@ -1,0 +1,29 @@
+{
+  "name": "dashboard",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "dashboard/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nx/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "webpackConfig": "dashboard/webpack.config.js",
+        "outputPath": "dist/dashboard"
+      },
+      "defaultConfiguration": "development"
+    },
+    "serve": {
+      "executor": "@nx/webpack:dev-server",
+      "options": {
+        "buildTarget": "dashboard:build:development"
+      },
+      "configurations": {
+        "development": { "buildTarget": "dashboard:build:development" },
+        "production": { "buildTarget": "dashboard:build:production" }
+      },
+      "defaultConfiguration": "development"
+    }
+  },
+  "tags": []
+}

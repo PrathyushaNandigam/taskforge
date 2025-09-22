@@ -1,0 +1,9 @@
+{
+  "run": {
+    "command": "nx serve dashboard",
+    "startTime": "2025-09-20T00:57:21.642Z",
+    "endTime": "2025-09-20T01:10:25.506Z",
+    "inner": false
+  },
+  "tasks": []
+}

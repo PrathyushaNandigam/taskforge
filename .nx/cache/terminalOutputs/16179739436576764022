@@ -1,0 +1,42 @@
+<i> [1m[32m[webpack-dev-server] Project is running at:[39m[22m
+<i> [1m[32m[webpack-dev-server] Loopback: [36mhttp://localhost:4200/[39m, [36mhttp://[::1]:4200/[39m[39m[22m
+<i> [1m[32m[webpack-dev-server] On Your Network (IPv4): [36mhttp://192.168.2.17:4200/[39m[39m[22m
+<i> [1m[32m[webpack-dev-server] Content not from webpack is served from '[36m/Users/annie/Desktop/taskforge/public[39m' directory[39m[22m
+<i> [1m[32m[webpack-dev-server] 404s will fallback to '[36m/index.html[39m'[39m[22m
+asset bundle.js 3.38 MiB [emitted] (name: main) 1 related asset
+asset index.html 298 bytes [emitted]
+orphan modules 155 KiB [orphan] 151 modules
+runtime modules 27.9 KiB 12 modules
+cacheable modules 2.83 MiB
+  modules by path ./node_modules/.pnpm/rxjs@7.8.2/node_modules/rxjs/dist/esm5/ 71.6 KiB 77 modules
+  modules by path ./node_modules/.pnpm/@angular+core@20.2.4_@angular+compiler@20.2.4_rxjs@7.8.2_zo...(truncated) 1.76 MiB 10 modules
+  modules by path ./node_modules/.pnpm/webpack-dev-server@5.2.2_webpack-cli@5.1.4_webpack@5.101.3/...(truncated) 84.8 KiB 8 modules
+  modules by path ./node_modules/.pnpm/@angular+common@20.2.4_@angular+core@20.2.4_@angular+compil...(truncated) 474 KiB 7 modules
+  modules by path ./node_modules/.pnpm/webpack@5.101.3_@swc+core@1.5.29_@swc+helpers@0.5.17__webpa...(truncated) 5.17 KiB 4 modules
+  modules by path ./node_modules/.pnpm/@angular+platform-browser@20.2.4_@angular+animations@18.2.1...(truncated) 100 KiB
+    ./node_modules/.pnpm/@angular+platform-browser@20.2.4_@angular+animations@18.2.1...(truncated) 42.1 KiB [built] [code generated]
+    + 2 modules
+  modules by path ./node_modules/.pnpm/@angular+router@20.2.4_@angular+common@20.2.4_@angular+core...(truncated) 320 KiB
+    ./node_modules/.pnpm/@angular+router@20.2.4_@angular+common@20.2.4_@angular+core...(truncated) 3.91 KiB [built] [code generated]
+    + 2 modules
+  + 4 modules
+webpack 5.101.3 compiled successfully in 834 ms
+asset [1m[32mbundle.js[39m[22m 3.38 MiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+asset [1m[32mindex.html[39m[22m 298 bytes [1m[32m[emitted][39m[22m
+orphan modules 155 KiB [1m[33m[orphan][39m[22m 151 modules
+runtime modules 27.9 KiB 12 modules
+cacheable modules 2.83 MiB
+  modules by path [1m./node_modules/.pnpm/rxjs@7.8.2/node_modules/rxjs/dist/esm5/[39m[22m 71.6 KiB 77 modules
+  modules by path [1m./node_modules/.pnpm/@angular+core@20.2.4_@angular+compiler@20.2.4_rxjs@7.8.2_zo...(truncated)[39m[22m 1.76 MiB 10 modules
+  modules by path [1m./node_modules/.pnpm/webpack-dev-server@5.2.2_webpack-cli@5.1.4_webpack@5.101.3/...(truncated)[39m[22m 84.8 KiB 8 modules
+  modules by path [1m./node_modules/.pnpm/@angular+common@20.2.4_@angular+core@20.2.4_@angular+compil...(truncated)[39m[22m 474 KiB 7 modules
+  modules by path [1m./node_modules/.pnpm/webpack@5.101.3_@swc+core@1.5.29_@swc+helpers@0.5.17__webpa...(truncated)[39m[22m 5.17 KiB 4 modules
+  modules by path [1m./node_modules/.pnpm/@angular+platform-browser@20.2.4_@angular+animations@18.2.1...(truncated)[39m[22m 100 KiB
+    [1m./node_modules/.pnpm/@angular+platform-browser@20.2.4_@angular+animations@18.2.1...(truncated)[39m[22m 42.1 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 2 modules
+  modules by path [1m./node_modules/.pnpm/@angular+router@20.2.4_@angular+common@20.2.4_@angular+core...(truncated)[39m[22m 320 KiB
+    [1m./node_modules/.pnpm/@angular+router@20.2.4_@angular+common@20.2.4_@angular+core...(truncated)[39m[22m 3.91 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 2 modules
+  + 4 modules
+webpack 5.101.3 compiled [1m[32msuccessfully[39m[22m in 834 ms
+^C<i> [1m[32m[webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...[39m[22m

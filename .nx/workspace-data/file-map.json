@@ -31,32 +31,36 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "tailwind.workspace.preset.js",
-        "hash": "12501497440175761740"
+        "file": "babel.config.json",
+        "hash": "5546405625092116747"
       },
       {
-        "file": ".github/workflows/ci.yaml",
-        "hash": "7275423798622048050"
+        "file": ".eslintrc.json",
+        "hash": "5849926285942261003"
       },
       {
         "file": ".vscode/extensions.json",
         "hash": "235626400633494639"
       },
       {
-        "file": ".prettierrc",
-        "hash": "15572831135930280722"
+        "file": "jest.config.ts",
+        "hash": "2950215254536237782"
       },
       {
-        "file": "justfile",
-        "hash": "11076921558107400329"
+        "file": "db.sqlite",
+        "hash": "1594880439111105388"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "95285166216195769"
+      },
+      {
+        "file": ".github/workflows/ci.yaml",
+        "hash": "7275423798622048050"
       },
       {
         "file": ".gitignore",
         "hash": "15928107562210583097"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "2194947798181171820"
       },
       {
         "file": "tools/gql-client-side-code-generation/gql-client-side-code-generation.yml",
@@ -67,88 +71,84 @@
         "hash": "6695750967570171703"
       },
       {
-        "file": ".github/instructions/nx.instructions.md",
-        "hash": "13509283602484742755"
-      },
-      {
-        "file": "db.sqlite",
-        "hash": "1594880439111105388"
-      },
-      {
-        "file": "pnpm-lock.yaml",
-        "hash": "10282321397932367321"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": "package.json",
-        "hash": "15434764353443142313"
-      },
-      {
         "file": "tools/docker-env/dev.docker-compose.yml",
         "hash": "13501335663343837094"
       },
       {
-        "file": "README.md",
-        "hash": "5149480168662135198"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "5849926285942261003"
-      },
-      {
-        "file": "nx.json",
-        "hash": "5604823414114521782"
+        "file": ".github/instructions/nx.instructions.md",
+        "hash": "13509283602484742755"
       },
       {
         "file": "workspace.json",
         "hash": "12195013861984584896"
       },
       {
-        "file": "babel.config.json",
-        "hash": "5546405625092116747"
-      },
-      {
-        "file": ".github/workflows/ci.yml",
-        "hash": "15154505236207301406"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "13148527829316212692"
-      },
-      {
-        "file": ".vscode/launch.json",
-        "hash": "2024762444636648948"
-      },
-      {
-        "file": "tools/tsconfig.tools.json",
-        "hash": "16088922570277978783"
-      },
-      {
-        "file": "tools/generators/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "95285166216195769"
-      },
-      {
-        "file": ".local.env",
-        "hash": "5901008641032056020"
+        "file": ".prettierrc",
+        "hash": "15572831135930280722"
       },
       {
         "file": "jest.preset.js",
         "hash": "2772139696069860212"
       },
       {
+        "file": "tailwind.workspace.preset.js",
+        "hash": "12501497440175761740"
+      },
+      {
+        "file": "tools/tsconfig.tools.json",
+        "hash": "16088922570277978783"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "2024762444636648948"
+      },
+      {
+        "file": "justfile",
+        "hash": "11076921558107400329"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "13148527829316212692"
+      },
+      {
+        "file": "nx.json",
+        "hash": "5604823414114521782"
+      },
+      {
+        "file": "README.md",
+        "hash": "5149480168662135198"
+      },
+      {
+        "file": ".github/workflows/ci.yml",
+        "hash": "8173002981324814442"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "10282321397932367321"
+      },
+      {
+        "file": "tools/generators/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".local.env",
+        "hash": "5901008641032056020"
+      },
+      {
+        "file": "package.json",
+        "hash": "15434764353443142313"
+      },
+      {
         "file": "tsconfig.json",
         "hash": "6759828567962362225"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "2950215254536237782"
+        "file": ".prettierignore",
+        "hash": "2194947798181171820"
       }
     ],
     "projectFileMap": {
